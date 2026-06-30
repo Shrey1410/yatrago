@@ -57,4 +57,10 @@ public class UsersEntity {
 
     @OneToMany(mappedBy = "usersEntity")
     private List<RidesEntity> ridesEntity;
+
+    @Column(nullable = false)
+    private String providerUserId;
+
+    @Column(nullable = false)
+    private CommonEnums.SocialProvider provider;
 }

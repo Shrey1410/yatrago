@@ -33,4 +33,12 @@ public class CommonEnums {
     public enum DocumentVerificationStatus {
         
     }
+
+    /**
+     * Currently only have two flows of social Login Google auth and Facebook auth
+     * LoginProvider
+     */
+    public enum SocialProvider {
+        GOOGLE, FACEBOOK
+    }
 }
